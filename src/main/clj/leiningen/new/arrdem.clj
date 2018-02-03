@@ -26,7 +26,7 @@
     (->files data
              [".editorconfig"
               (render "editorconfig" data)]
-             
+
              [".gitignore"
               (render "gitignore" data)]
 
@@ -37,7 +37,10 @@
               (render "README.md" data)]
 
              ["etc/{{name}}.jpg"
-              (io/resource "template.jpg")]
+              (io/reader (io/resource "template.jpg"))]
+
+             ["docs/index.md"
+              (render "index.md" data)]
 
              ["project.clj"
               (render "project.clj" data)]

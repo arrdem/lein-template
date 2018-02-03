@@ -11,6 +11,10 @@
 
 FIXME
 
+## Documentation
+
+- [Index](/docs/index.md)
+
 ## License
 
 Copyright (C) {{year}} Reid "arrdem" McKenzie
