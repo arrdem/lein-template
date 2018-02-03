@@ -1,6 +1,6 @@
 # @arrdem's Leiningen template
 
-<img align="right" src="https://github.com/arrdem/lein-template/raw/master/etc/lein-template.jpg" width=300/>
+<img align="right" src="https://github.com/arrdem/lein-template/raw/master/src/main/resources/template.jpg" width=300/>
 
 [![Clojars Project](https://img.shields.io/clojars/v/me.arrdem/lein-template.svg)](https://clojars.org/me.arrdem/lein-template)
 
