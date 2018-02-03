@@ -12,7 +12,7 @@ they:
 - leveraged my [lein-git-version](https://github.com/arrdem/lein-git-version) plugin
 - had a bunch of config files (`.gitignore`, `.editorconfig`) I just copied around
 
-This project exists to provide push-button project creation with most of my defaults for genera
+This project exists to provide push-button project creation with most of my defaults for general
 purpose projects. Additional customization will probably be required, but it's already labor-saving
 for my needs.
 
