@@ -1,9 +1,10 @@
 (ns leiningen.new.arrdem
-  "A Leiningen template for a new \"arrdem\" flavored projects."
+  "A Leiningen template for a new \"arrdem\" flavored bprojects."
   {:authors ["Reid \"arrdem\" McKenzie <me@arrdem.com>"]
    :license "https://www.eclipse.org/legal/epl-v10.html"}
   (:require [leiningen.new.templates
-             :refer [->files name-to-path sanitize-ns renderer year]]))
+             :refer [->files name-to-path sanitize-ns renderer year]]
+            [clojure.java.io :as io]))
 
 (def ^{:const true}
   project-version "0.1.0-SNAPSHOT")
@@ -25,7 +26,7 @@
     (->files data
              [".editorconfig"
               (render "editorconfig" data)]
-
+             
              [".gitignore"
               (render "gitignore" data)]
 
@@ -34,6 +35,9 @@
 
              ["README.md"
               (render "README.md" data)]
+
+             ["etc/{{name}}.jpg"
+              (io/resource "template.jpg")]
 
              ["project.clj"
               (render "project.clj" data)]
