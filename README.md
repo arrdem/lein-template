@@ -10,18 +10,27 @@ they:
 - leveraged my [lein-git-version](https://github.com/arrdem/lein-git-version) plugin
 - had a bunch of config files (`.gitignore`, `.editorconfig`) I just copied around
 
+This project exists to provide push-button project creation with most of my defaults for genera
+purpose projects. Additional customization will probably be required, but it's already labor-saving
+for my needs.
+
 ## Installation
 
-Add a plugin dependency on `[me.arrdem/lein-template "0.1.0"]` to
-your `~/.lein/profiles.clj`:
+Add a plugin dependency on `[me.arrdem/lein-template "a.b.c"]` to your `~/.lein/profiles.clj`. See
+Clojars above for the latest release.
+
+For instance,
 
 ``` clojure
-{:user {:plugins [[me.arrdem/lein-template "0.1.0"]]}
+{:user {:plugins [[me.arrdem/lein-template "a.b.c"]]}
 ```
 
 ## Usage
 
     lein new arrdem some-absurd-name
+
+The arrdem template as of this time does not accept any options. In the future, flags for
+Travis/CircleCI configurations may be added, but we shall see.
 
 ## License
 
