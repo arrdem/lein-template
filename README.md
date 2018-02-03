@@ -19,7 +19,7 @@ for my needs.
 ## Installation
 
 Add a plugin dependency on `[me.arrdem/lein-template "a.b.c"]` to your `~/.lein/profiles.clj`. See
-Clojars above for the latest release.
+the Clojars badge above for the latest release.
 
 For instance,
 
