@@ -2,7 +2,7 @@
 
 <img align="right" src="https://github.com/arrdem/lein-template/raw/master/src/main/resources/template.jpg" width=300/>
 
-[![Clojars Project](https://img.shields.io/clojars/v/me.arrdem/lein-template.svg)](https://clojars.org/me.arrdem/lein-template)
+[![Clojars Project](http://clojars.org/me.arrdem/lein-template/latest-version.svg)](https://clojars.org/me.arrdem/lein-template)
 
 I realized I'd been hammering out a bunch of small projects that shared a lot of structure, in that
 they:
