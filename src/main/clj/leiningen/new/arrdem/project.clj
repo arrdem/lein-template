@@ -3,8 +3,9 @@
   :url "http://github.com/arrdem/{{name}}"
   :license {:name "Eclipse Public License"
             :url  "http://www.eclipse.org/legal/epl-v10.html"}
+
   :dependencies [[org.clojure/clojure "{{clojure-version}}"]]
-  
+
   :source-paths      ["src/main/clj"
                       "src/main/cljc"]
   :java-source-paths ["src/main/jvm"]
