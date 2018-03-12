@@ -1,7 +1,7 @@
 # {{name}}
 <img align="right" src="/etc/{{name}}.jpg" width=300/>
 
-[![Clojars Project](https://img.shields.io/clojars/v/me.arrdem/lein-git-version.svg)](https://clojars.org/{{fq-name}})
+[![Clojars Project](http://clojars.org/me.arrdem/{{name}}/latest-version.svg)](https://clojars.org/{{fq-name}})
 
 > FIXME: quotation maybe?
 
